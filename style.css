@@ -1,0 +1,97 @@
+div.model-table {
+  max-height: 400px;
+}
+
+div.row div.first-table {
+  background-color: rgb(8, 168, 30);
+  max-height: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+div.row div.second-table {
+  background-color: rgb(13, 163, 223);
+  max-height: 400px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+div.row div.third-table {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+div.row div.third-table div.row div.first-row {
+  height: 133px;
+  background-color: rgb(233, 231, 141);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 50px;
+}
+div.row div.third-table div.row div.second-row {
+  height: 133px;
+  background-color: rgb(255, 239, 14);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.row div.third-table div.row div.third-row {
+  height: 133px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 50px;
+}
+
+#second-exercise div.container p.text-center {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+#third-exercise div.row {
+  background-color: rgb(245, 241, 241);
+
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#third-exercise p {
+  margin-bottom: 20px;
+}
+
+#third-exercise div.row div div.card {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+#third-exercise div.row div.top-margin {
+  height: 1px;
+  margin-bottom: 3rem;
+}
+div.card div.card-body h5.card-title {
+  width: 100%;
+  background-color: silver;
+}
+
+#first-list,
+#second-list {
+  padding: 0;
+}
